@@ -1,7 +1,7 @@
 var katzDeli = [];
 
 function takeANumber(line, name) {
-  var i == line.length + 1;
+  var i = line.length + 1;
   line.push(name);
   return name + ' is ' + i + ' in line.';
 }
