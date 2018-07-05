@@ -6,11 +6,13 @@ function takeANumber(line, name) {
   return  'Welcome, ' + name + '. ' + 'You are number ' + i + ' in line.';
 }
 
-function nowServing(line) {
-  if (line.length == 0) {
+function nowServing() {
+  if (katzDeliLine.length == 0) {
     return 'There is nobody waiting to be served!';
   } else {
-      return 'Currently serving ' + line[0] + '.';
-      line = line.splice(1);
+      return 'Currently serving ' + katzDeliLine[0] + '.';
+      katzDeliLine = katzDeliLine.splice(1);
   }
 }
+
+function currentLint(line)
