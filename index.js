@@ -1,5 +1,11 @@
 var katzDeli = [];
 
+function takeANumber(line, name) {
+  var i == line.length + 1;
+  line.push(name);
+  return name + ' is ' + i + ' in line.';
+}
+
 function nowServing() {
   if (katzDeliLine.length == 0) {
     return 'There is nobody waiting to be served!';
